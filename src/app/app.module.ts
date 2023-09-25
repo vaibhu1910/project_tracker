@@ -9,7 +9,6 @@ import { ColumnComponent } from './column/column.component';
 import { DragDropModule } from '@angular/cdk/drag-drop';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TaskTrackerComponent } from './task-tracker/task-tracker.component';
-import { TaskListComponent } from './task-list/task-list.component';
 import { TaskComponent } from './task/task.component';
 
 @NgModule({
@@ -19,7 +18,6 @@ import { TaskComponent } from './task/task.component';
     SidebarComponent,
     ColumnComponent,
     TaskTrackerComponent,
-    TaskListComponent,
     TaskComponent
   ],
   imports: [
